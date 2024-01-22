@@ -181,7 +181,6 @@ export const query = graphql`
           slug
           title
           date(formatString: "MMMM D, YYYY")
-          spoiler
           hidden
           tags
         }
