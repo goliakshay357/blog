@@ -22,50 +22,36 @@ const Layout = ({ children }) => (
           <div className="sticky top-0 w-full p-4 text-center">
             <div className="">
               <Link to="/">
-                <h1 className="text-2xl">Juraj Majerik</h1>
+                <h1 className="text-2xl">Akshay Goli</h1>
               </Link>
             </div>
             <StaticImage
               className="img-profile mt-6 h-32 w-32 rounded-full bg-zinc-100 object-cover"
-              src="./bio.jpg"
+              src="https://media.licdn.com/dms/image/C5603AQFrIucKRWiVag/profile-displayphoto-shrink_800_800/0/1659425199503?e=1711584000&v=beta&t=RTLMktXnaGgOG8JzF34RwUo8tic4eYUP5cM9TxuEi8I"
               alt="Profile photo"
             />
             <div className="mt-6 space-y-7 text-sm text-slate-800">
               <p>
-                I&#39;m Juraj, a software engineer based in Amsterdam. I write
-                about building scalable systems.
-              </p>
-
-              <p>
-                Currently working on a
-                <a
-                  className="text-blue-500 transition-colors hover:text-blue-600"
-                  href="https://rides.jurajmajerik.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  &nbsp;ridesharing simulation
-                </a>
-                .
+                I&#39;m Akshay, a software engineer based in India. I write engineering blogs and love open source.
               </p>
 
               <p className="mt-6">
                 <a
-                  href="https://twitter.com/JurajMajerik"
+                  href="https://twitter.com/GoliSujith"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <i className="fa-brands fa-twitter text-xl hover:text-slate-700" />
                 </a>
                 <a
-                  href="https://github.com/jurajmajerik"
+                  href="https://github.com/goliakshay357"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <i className="fa-brands fa-github ml-2 text-xl hover:text-slate-700" />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/jurajmajerik/"
+                  href="https://www.linkedin.com/in/goliakshay/"
                   target="_blank"
                   rel="noreferrer"
                 >
